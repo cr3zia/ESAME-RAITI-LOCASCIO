@@ -1,0 +1,789 @@
+*{
+    margin: 0;
+    max-width: 100%;
+}
+
+body {
+    font-family: avenir;
+    font-style: normal;
+    background-color: black;
+}
+@font-face {
+    font-family: dela gothic one;
+    src: url(https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap);
+}
+
+.dela-gothic one-regular {
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+p {
+    font-family: avenir;
+    color: white;
+    font-size: 14pt;
+ }
+header {
+    background-color: black;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12pt;
+    position: fixed;
+    width: 100%;
+}
+
+a {
+  color: white;
+}
+
+#logo {
+ max-width: 100%;
+ margin-left: 20pt;
+ align-items: center;
+}
+
+.home a {
+    color: #FF611E;
+    font-weight: bold;
+}
+
+.foto a {
+    color: #FF611E;
+    font-weight: bold;
+}
+
+.video a {
+    color: #FF611E;
+    font-weight: bold;
+}
+
+.musica a {
+    color: #FF611E;
+    font-weight: bold;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 30pt;
+}
+
+.rect{
+    background-color: #FF611E;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    width: 100%;
+    height: 40px;
+ }
+ .rect h3 {
+    padding-top: 6px;
+    font-weight: bolder;
+ }
+
+ .rettangolo {
+    background-color:#FF611E;
+    font-size: 14pt;
+    margin-top: 100px;
+    padding: 30px 20px 40px 20px;
+}
+
+.rettangolotx {
+    max-width: 600px;
+    margin: auto;
+}
+
+.rettangolo h1{
+    font-family:Dela Gothic One ;
+    font-size: 20pt;
+}
+.rettangolo p{
+    padding: 20px 0 30px 0px;
+}
+.rettangolo a {
+    border: solid 1px white;
+    font-size: 11pt;
+    padding: 10px 15px;
+    margin-top: 20px;
+}
+
+.lostudio  {
+    max-width: 500px;
+    margin: auto;
+    padding-left: 20pt;
+}
+.lostudio h2 {
+    font-family:Dela Gothic One ;
+    font-size: 16pt;
+    margin-top: 100px;
+}
+.lostudio p{
+    font-size: 14pt;
+    margin-top: 10pt;
+}
+.cosaoffriamo h2 {
+    color: #FF611E;
+    font-family:Dela Gothic One ;
+    font-size: 16pt;
+    margin-bottom: 10pt;
+}
+.cosaoffriamo {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    max-width: 680px;
+    margin: auto;
+    flex-direction: column;
+    font-size: 14pt;
+    padding-left: 20pt;
+}
+
+ .testo {
+     padding-top: 50px;
+     padding-left: 50px;
+     font-size: 14pt;
+     max-width: 780px;
+ }
+ .testo h2 {
+    font-size: 16pt;
+    font-family:Dela Gothic One;
+    padding-bottom: 10px;
+ }
+
+ .testo2{
+    margin: auto;
+    max-width: 400px;
+    align-items: center;
+ }
+
+ .testo2 p{
+    font-size: 14pt;
+ }
+ .testo2 h2 {
+    font-size: 16pt;
+    color: #FF611E;
+    font-family:Dela Gothic One;
+ }
+
+ .sezione1 .paragrafo{
+   margin: auto;
+ }
+ 
+ .sezione1 {
+    display: flex;
+ }
+
+ .sezione1 .img{
+    max-width: 60%;
+ }
+
+ .paragrafo{
+     font-size: 14pt;
+ }
+ .paragrafo p{
+     padding-bottom: 20px;
+ }
+
+ .paragrafo ul li{
+   padding: 10px;
+   color: white;
+ }
+
+ .img {
+     padding-top: 20px;
+     width: 70%;
+ }
+ .sezione2 {
+     display: flex;
+ }
+ .sezione2 p {
+     margin: auto;
+     max-width: 500px;
+     margin-top: 10px;
+     margin-bottom: 25px;
+ }
+
+ .sezione2 a {
+     color: white;
+     height: 60px;
+     text-decoration: none;
+     padding: 5px 10px;
+     background-color: #FF611E;
+     justify-content: center;
+     font-weight: bold;
+ }
+ .sezione2 p span {
+     font-weight: bold;
+ }
+.grid {
+     width: 50%;
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     gap: 10px;
+     padding: 50px;
+     margin: auto;
+ }
+
+.gridfoto{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 100%;
+    margin: auto;
+}
+
+.gallery h3{
+    color: white;
+    font-size: 16pt;
+    padding: 20pt;
+    font-family: "Dela Gothic One", sans-serif;
+    margin-top: 40px;
+ }
+
+.contenitore {
+    display: flex; 
+    align-items: center;
+}
+
+
+.flex-container {
+    display: flex;
+}
+
+
+.colonnasinistra {
+    flex-grow: 4
+}
+.colonnadestra img {
+    max-width: 550px;
+    margin: 200px 0 0 200px;
+}
+
+
+.gridhome {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+    color: white;
+}
+
+.gridhome p {
+    margin: 30px;
+    font-family: "Dela Gothic One", sans-serif;
+    font-size: large;
+    text-align: center;
+}
+.gridhome img{
+    margin: auto;
+    display: flex
+}
+
+.gridhome a {
+    text-decoration: none;
+}
+
+.video-container {
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+  
+.video-container video {
+    width: 100%; 
+}
+
+section h1, section h2 {
+    color: white;
+}
+
+.gridnoleggio{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 90px;
+    column-gap: 10px;
+}
+
+.testonoleggio {
+    display: flex;
+    margin: auto;
+    width: 90%;
+    padding: 30px;
+    gap: 15px;
+    justify-content: space-between;
+}
+.testodx{
+    max-width: 580px;
+}
+
+.testonoleggio h3 {
+    color: #FF611E;
+    font-family: "Dela Gothic One", sans-serif;
+    font-size: 16pt;
+}
+.freccia img {
+  width: 30px;
+  padding: 20pt;
+}
+
+.chisiamo {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    padding: 40px;
+    gap: 80px;
+}
+.chisiamo .testodx{
+    max-width: 520px;
+}
+.p2 {
+    margin-top: 20px;
+}
+.testosx {
+    max-width: 520px;
+}
+.testosx ul{
+    color: white;
+    font-size: 14pt;
+    margin-top: 20px;
+}
+.testosx ul li{
+    padding: 7px;
+}
+
+.frase p{
+    color: white;
+    font-size: 14pt;
+    margin: auto;
+    padding: 30px;
+}
+.row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 16px;
+}
+.column{
+    margin: auto;
+}
+.column p{
+    font-size: 12pt;
+    max-width: 350px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+button {
+    background-color: #FF611E;
+    color: white;
+    font-size: 15pt;
+    font-weight: bolder;
+    width: 300px;
+    height: 30px;
+    margin: auto;
+    display: flex;
+    border-color: #FF611E;
+}
+button a{
+    text-decoration: none; 
+    text-align: center;
+    margin: auto;
+}
+
+.sezione3{
+    margin: auto;
+    display: flex;
+    justify-content: space-around
+}
+
+.container {
+    margin: auto;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+input[type="text"], input[type="email"], input[type="submit"]  {
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+input[type="submit"] {
+    background-color: #FF611E;
+    color: white;
+    font-size: 11pt;
+    font-weight: bolder;
+    text-decoration: none;
+    height: 30%;
+    max-width: 250px;
+    text-align: center;
+    border-color: #FF611E;
+}
+
+textarea{
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: white solid 4px;
+}
+
+.info {
+    margin: auto;
+    margin-top: 50px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.info p {
+    margin: auto;
+    gap: 40px;
+}
+
+form {
+    display: block;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: white;
+}
+.sezione {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+.map {
+    margin: auto;
+    padding-top: 40px;
+}
+.map img{
+    width: 70%;
+    margin: auto;
+    display: flex;
+}
+.line{
+    background-color: white;
+    width: 100%;
+    height: 2px;
+    margin-top: 10%;
+}
+footer .up{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 20pt;
+    font-size: 12pt;
+}
+
+footer p {
+text-align: center;
+font-size: 8pt;
+}
+
+footer a {
+    color: white;
+}
+
+.footericon img{
+    margin: 0 10px;
+}
+.copy p{
+    font-size: 8pt;
+}
+
+
+@media  screen and (max-width: 1000px) {
+
+    #logo {
+        margin-left: 10pt;
+        max-width: 100%;
+        margin: auto;
+    }
+
+    nav{
+        display: flex;
+        align-items: center;
+        font-size: 10pt;
+        max-width: 700pt;
+    }
+    nav ul li a {
+        text-decoration: none;
+        padding: 6pt;
+    }
+    nav li {
+        margin-right: 10px;
+    }
+    p {
+        font-family: avenir;
+        color: white;
+        font-size: 12pt;
+        
+    }
+    .rect h3 {
+        font-size: 12pt;
+        margin-top: 3px;
+    }
+    
+    .gridhome{
+        display: grid;
+        justify-content: center;
+        margin: auto;
+        max-width: 80%;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+    .rettangolo{
+        font-size: 12pt;
+    }
+
+    .gridfoto{
+     display: grid;
+     grid-template-columns: repeat(1, 1fr);;
+     max-width: 90%;
+     margin: auto;
+    }
+
+    .cosaoffriamo h2{
+        font-size: 14pt;
+       
+    }
+
+    .sezione1 {
+        flex-direction: column;
+    }
+   
+    .sezione2 {
+        flex-direction: column;
+        margin: auto;
+    }
+    .sezione2 p {
+        margin-top: 10px;
+        margin-bottom: 25px;
+    }
+    .sezione2 img{
+        max-width: 90%;
+    }
+    .sezione2 .grid{
+    grid-template-columns: repeat(2, 1fr);
+    width: 70%;
+    }
+
+    .img{
+        margin: auto;
+        width: 90%;
+    }
+
+    .video-container {
+        display: grid; 
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;
+        margin-top: 10%;
+        max-width: 80%;
+        margin: auto;
+    }
+   
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .colonnadestra img {
+        max-width: 80%;
+        margin: auto;
+        display: flex;
+        margin-top: 80px;
+    }
+    .lostudio p{
+        font-size: 12pt;
+    }
+
+    .lostudio h2{
+        font-size: 14pt;
+    }
+    .testo {
+        margin: auto;
+        padding-top: 20px;
+        padding-left: 0px;
+        max-width: 350px;
+    }
+    .testo h2{
+        font-size: 14pt;
+    }
+    .testo p{
+        font-size: 12pt;
+        padding-bottom: 10pt;
+    }
+    .testo2 {
+        margin: auto;
+        max-width: 350px;
+    }
+    .testo2 p{
+        font-size: 12pt;
+    }
+    .testo2 a{
+        font-size: 10pt;
+    }
+   
+    .paragrafo {
+        font-size: 12pt;
+    }
+    .paragrafo ul{
+        font-size: 12pt;
+        
+    }
+    .testonoleggio{
+        margin: auto;
+        flex-direction: column;
+        max-width: 300px;
+    }
+
+    .gridnoleggio{
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        margin-top: 90px;
+        column-gap: 10px;
+        max-width: 80%;
+    }
+
+    .freccia img {
+        width: 20px;
+        padding: 15pt;
+    }
+
+    .testosx ul{
+        font-size: 12pt;
+        margin-top: 20px;
+    }
+    .testosx ul li{
+        padding: 5px;
+    }
+
+    .chisiamo{
+        margin: auto;
+        flex-direction: column;
+    }
+
+    .testodx{
+        margin: auto;
+    }
+    .testosx{
+        margin: auto;
+    }
+
+    .row {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .column{
+        margin: auto;
+        padding: 30px;
+    }
+    .column p{
+        margin-bottom: 20px;
+    }
+
+    .sezione {
+        margin: auto;
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .sezione3{
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+        padding: 0px;
+    }
+    .container{
+        padding-top: 10px;
+        padding-left: 0px;
+        max-width: 350px;
+        margin: auto;
+    }
+    .map img{
+        width: 90%;
+    }
+    input[type="text"], input[type="email"]  {
+        width: 100%;
+    }
+    input[type="submit"] {
+        max-width: 100px;
+    }
+    label {
+        font-size: 11pt;
+        padding-top: 10px;
+    }
+
+    textarea{
+        width: 100%;
+    }
+    .info {
+        flex-direction: column;
+        margin: auto;
+        max-width: 200px;
+        font-size: 12pt;
+        margin-top: 20px;
+    }
+
+    .info p{
+        padding: 8px;
+    }
+    
+    .sezionecontatti{
+       max-width: 100%;
+       margin: auto;
+       padding: 0px;
+    }
+
+
+    .line{
+        height: 1px;
+    }
+    footer .up{
+        justify-content: center;
+        color: white;
+        margin-top: 30px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    .footericon {
+        justify-content: center;
+        padding: 20px 0;
+    }
+    .footericon img {
+        margin: 0 6px;
+    }
+
+    footer a{
+        font-size: 10pt;
+     }
+
+    .copy p{
+        font-size: 7pt;
+     }
+
+  }
